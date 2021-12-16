@@ -1,0 +1,19 @@
+{
+  "name": "xpring-xrp-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "send-xrp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuki Adachi",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "elliptic": "^6.5.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.26.0",
+    "xpring-js": "^5.3.1"
+  }
+}
