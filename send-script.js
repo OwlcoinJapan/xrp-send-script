@@ -91,6 +91,8 @@ async function run(){
 
         await client.end()
 
+        console.log('All transaction completed !');
+        
     } catch (error) { 
         console.log("err", error)               
     }  
